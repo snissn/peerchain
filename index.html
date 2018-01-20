@@ -1,0 +1,28 @@
+<script src="http://cdn.peerjs.com/0.3/peer.js"></script>
+<script src="peer.js"></script>
+
+<script type="text/javascript">
+var PUB = "1PDTDX2V4u8PPByLupzSeq6kzh9FCu2diU";
+var SECRET = "KwtvhiTj3bEUnGarzxgXx7ZewoisCw9KoVu98zbiBGzgQUSMevv6";
+var PUB2 = "1J6YHnEXf6E9tdGpuqcDD26sn435nrqmqf";
+var SECRET2 = "KysVCRtV52gtZ61mGcZdESxKpQGnJEnGsGPiUfdW9La7QhWZEPnw"
+</script>
+
+
+
+<div id="you">
+Your PeerJS ID is <span id="peerid">Loading</span>
+<div id="peer">
+Connect to a peer: 
+<input type="text" id="rid" placeholder="Someone else's id"><input class="button" type="button" value="Connect" id="connect" onclick=connect()>
+<br />
+<br />
+<br />
+<input type="text" id="message" />
+<input type="submit" value="Send" onclick=send() />
+
+
+
+<script>
+load();
+</script>
